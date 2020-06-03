@@ -5,7 +5,7 @@ from tabulate import tabulate
 mydb = mysql.connector.connect(
     host = "localhost",
     user = "root",
-    passwd = "Toori7021998"
+    passwd = ""
 )
 
 def addNewRecord(cnic, pName, num, email, add):
